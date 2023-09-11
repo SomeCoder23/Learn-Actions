@@ -43,6 +43,6 @@ jobs:
             echo this is a multiline sprit
             pwd
             ls
-        - run: cat etc/lsb_release 
+        - run: cat /etc/lsb-release 
         
             
