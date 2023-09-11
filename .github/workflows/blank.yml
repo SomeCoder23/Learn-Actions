@@ -34,15 +34,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-
-  test:
-    runs-on: ubuntu-latest
-    steps:
-        - run: |
-            echo Hello from github Actions
-            echo this is a multiline sprit
-            pwd
-            ls
-        - run: cat /etc/lsb-release 
         
             
